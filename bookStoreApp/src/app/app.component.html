@@ -1,8 +1,12 @@
-<div>
-  <a routerLink='/about-us'>About Us</a>
-  <a routerLink='/how-it-works'>How it works</a>
-  <a routerLink='/auth/login'>Login</a>
-  <a routerLink='/public/all-books'>All books</a>
+<div class='container-fluid bg-light shadow'>
+  <header class="d-flex justify-content-center py-3">
+    <ul class="nav nav-pills">
+      <li class="nav-item"><a routerLink="/about-us" class="nav-link">About us</a></li>
+      <li class="nav-item"><a routerLink="/how-it-works" class="nav-link">How it works</a></li>
+      <li class="nav-item"><a routerLink="/auth/login" class="nav-link">Login</a></li>
+      <li class="nav-item"><a routerLink="/public/all-books" class="nav-link">All books</a></li>
+    </ul>
+  </header>
 </div>
 <router-outlet></router-outlet>
 <h1>Footer</h1>
